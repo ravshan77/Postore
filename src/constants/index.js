@@ -1,2 +1,2 @@
-export { DASHBOARD_PAGE } from "./pageTypes"
-export { DASHBOARD_PATH } from "./pathTypes"
+export { DASHBOARD_PAGE, INFORMATIONS_PAGE, EXAMPLE_PAGE } from "./pageTypes"
+export { DASHBOARD_PATH, BRANCH_PATH, CLIENT_PATH } from "./pathTypes"

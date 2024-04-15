@@ -2,13 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-.no-scrollbar::-webkit-scrollbar {
-    display: none;
+.rdg-cell{
+    padding-block: 0;
+    padding-inline: 8px;
+    border-inline-end: 1px solid #ddd;
+    border-block-end: 1px solid #ddd;
+    background-color: inherit;
+    white-space: nowrap;
+    overflow: clip;
+    text-overflow: ellipsis;
+    outline: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
+@layer base {
+    :root {
+      /* For input focus color */
+      --focus-input-color: #7986cb;
+
+      box-shadow:0 0 0 2px rgba(121,134,203, 0.4)
+    }
+  }

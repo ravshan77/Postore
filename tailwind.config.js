@@ -6,16 +6,13 @@ export default {
   ],
   theme: {
     extend: {},
+    // colors:{
+    //  focus_input_color: "var(--focus-input-color)"
+    // },
     container: {
       center: true,
-      padding: '10px',
-      // screens: {
-        // sm: '1200px',
-        // md: '728px',
-        // lg: '984px',
-        // xl: '1240px',
-        // '2xl': '1496px',
-      // },
+      screens: true,
+      padding: "1.5rem"
     }
   },
   plugins: [],

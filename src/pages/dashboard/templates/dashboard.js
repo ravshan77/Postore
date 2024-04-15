@@ -1,4 +1,4 @@
-import { DASHBOARD_PAGE, DASHBOARD_PATH } from "../../../constants";
+import { DASHBOARD_PAGE, DASHBOARD_PATH } from "@/constants";
 
 export const dashboard = {
   title: "Dashboard",

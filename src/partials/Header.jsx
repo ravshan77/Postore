@@ -1,10 +1,10 @@
 import React from 'react';
-import Avatar from "../assets/avatar.svg"
+import Avatar from "@/assets/svg/avatar.svg"
 
 export const Header = () => {
 
   const navbar_main = [
-    { title: "Savdo oynasi", icon: "icon" },
+    { title: "Asosiy oynasi", icon: "icon" },
     { title: "Bosh menu", icon: "icon" },
     { title: "yordam", icon: "icon" },
   ]
@@ -17,9 +17,7 @@ export const Header = () => {
         </li>
         <li className='flex items-center'>
           <nav>
-            {
-              navbar_main.map(nav => <a className='w-4 h-4 m-4' key={nav.title}>{nav.title}</a>)
-            }
+            { navbar_main.map(nav => <a className='w-4 h-4 m-4' key={nav.title}>{nav.title}</a>) }
           </nav>
 
         </li>
